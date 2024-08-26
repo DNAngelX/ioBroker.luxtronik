@@ -1,0 +1,31 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"ip": {
+			"type": "text",
+			"label": "Hostname / IP-Adress",
+			"newLine": true
+		},
+		"ws_port": {
+			"type": "number",
+			"label": "WebSocket-Port",
+			"newLine": true
+		},
+		"lt_port": {
+			"type": "number",
+			"label": "Luxtronik Port",
+			"newLine": true
+		},
+		"pw": {
+			"type": "text",
+			"label": "Password",
+			"newLine": true
+		},
+		"interval": {
+			"type": "number",
+			"label": "Aktualisierungsinterval Sec.",
+			"newLine": true
+		}
+	}
+}

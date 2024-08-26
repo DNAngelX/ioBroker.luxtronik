@@ -1,0 +1,8 @@
+{
+	"luxtronik adapter settings": "Adapterinstellingen voor luxtronik",
+	"ip": "Hostname / IP-Adress",
+	"ws_port": "WebSocket-Port",
+	"lt_port": "Luxtronik Port",
+	"pw": "Password",
+	"interval": "Aktualisierungsinterval Sec."
+}

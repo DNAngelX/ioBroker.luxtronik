@@ -1,0 +1,107 @@
+{
+	"common": {
+		"name": "luxtronik",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Luxtronik 2.0",
+		"titleLang": {
+			"en": "Luxtronik 2.0",
+			"de": "Luxtronik 2.0",
+			"ru": "Luxtronik 2.0",
+			"pt": "Luxtronik 2.0",
+			"nl": "Luxtronik 2.0",
+			"fr": "Luxtronik 2.0",
+			"it": "Luxtronik 2.0",
+			"es": "Luxtronik 2.0",
+			"pl": "Luxtronik 2.0",
+			"zh-cn": "Luxtronik 2.0"
+		},
+		"desc": {
+			"en": "Adapter for Aplha Innotek LUXTRONIK 2.0/2.1",
+			"de": "Adapter for Aplha Innotek LUXTRONIK 2.0/2.1",
+			"ru": "Adapter for Aplha Innotek LUXTRONIK 2.0/2.1",
+			"pt": "Adapter for Aplha Innotek LUXTRONIK 2.0/2.1",
+			"nl": "Adapter for Aplha Innotek LUXTRONIK 2.0/2.1",
+			"fr": "Adapter for Aplha Innotek LUXTRONIK 2.0/2.1",
+			"it": "Adapter for Aplha Innotek LUXTRONIK 2.0/2.1",
+			"es": "Adapter for Aplha Innotek LUXTRONIK 2.0/2.1",
+			"pl": "Adapter for Aplha Innotek LUXTRONIK 2.0/2.1",
+			"zh-cn": "Adapter for Aplha Innotek LUXTRONIK 2.0/2.1"
+		},
+		"authors": [
+			"DNAngelX <stolly82@web.de>"
+		],
+		"keywords": [
+			"Aplha Innotek",
+			"Heatpump",
+			"Luxtronik",
+			"Wärmepumpe"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "luxtronik.svg",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/DNAngelX/ioBroker.luxtronik/main/admin/luxtronik.svg",
+		"readme": "https://github.com/DNAngelX/ioBroker.luxtronik/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "iot-systems",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json",
+			"tab": "materialize"
+		},
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "Luxtronik 2.0",
+				"de": "Luxtronik 2.0",
+				"ru": "Luxtronik 2.0",
+				"pt": "Luxtronik 2.0",
+				"nl": "Luxtronik 2.0",
+				"fr": "Luxtronik 2.0",
+				"it": "Luxtronik 2.0",
+				"es": "Luxtronik 2.0",
+				"pl": "Luxtronik 2.0",
+				"zh-cn": "Luxtronik 2.0"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"ip": "",
+		"ws_port": "8214",
+		"lt_port": "8888",
+		"pw": "999999",
+		"interval": "5"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
